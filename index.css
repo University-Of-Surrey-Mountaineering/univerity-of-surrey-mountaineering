@@ -1,0 +1,149 @@
+body {
+    text-align: center;
+    background-color: #3c3c3c;
+    padding: 0;
+    margin: 0;
+}
+
+.Banner {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+    padding: 0;
+    text-align: left;
+    background-color: #d54e45;
+}
+.Banner a {
+    text-decoration: none;
+    color: #d54e45;
+}
+.Banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Banner img {
+    max-height: 10vh;
+    padding: 0;
+    margin: 0;
+}
+
+.Header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Photos/WhatsApp Image 2026-07-25 at 16.06.05.jpeg");
+    background-size:100vw 100vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+
+
+
+.Header_Container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    height: 60vh;
+}
+
+.Logo {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.USMC {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    height: auto;
+    border-radius:30px;
+    background-color: #d54e45;
+}
+
+.USMC p {
+    display: flex;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    font-size:5ch;
+}
+
+
+.Logo img {
+    width: 20vw;
+    border-radius: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #d54e45;
+    border-style: solid;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+
+.committee {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #d54e45;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5%;
+    border-style: solid;
+    height: auto;
+}
+
+.commitcont {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+.pfp {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 60%;
+    background-color: #e17d76;
+    border-style: dotted;
+    border-radius: 5%;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 100%;
+
+}
+
+
+.desc {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0%;
+    justify-items: center;
+}
+

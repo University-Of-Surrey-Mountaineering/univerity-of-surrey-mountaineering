@@ -1,0 +1,72 @@
+
+body {
+    text-align: center;
+    background-color: #3c3c3c;  
+    padding: 0;
+    margin: 0;
+}
+
+.Banner {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    text-align: left;
+    background-color: #d54e45;
+}
+
+.Banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Banner img {
+    max-height: 10vh;
+    padding: 0;
+    margin: 0;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width:40vw;
+    height: auto;
+    border-radius: 5%;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: auto;
+}
+
+.section {
+    display: flex;
+    width: auto;
+    height: 80vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #d54e45;
+    border-radius: 5%;
+}
+
+#section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+
+}

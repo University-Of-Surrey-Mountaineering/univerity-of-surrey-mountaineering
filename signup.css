@@ -1,0 +1,33 @@
+
+
+body {
+    text-align: center;
+    background-color: #4d678b;
+    padding: 0;
+    margin: 0;
+}
+
+.Banner {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    text-align: left;
+    background-color: #afd9f2;
+}
+
+.Banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Banner img {
+    max-height: 10vh;
+    padding: 0;
+    margin: 0;
+}

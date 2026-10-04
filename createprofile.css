@@ -1,0 +1,41 @@
+
+body {
+    text-align: center;
+    background-color: #3c3c3c;
+    padding: 0;
+    margin: 0;
+}
+
+.submit {
+    display: flex !important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+}
+
+#enter_details div{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 50% 50%;
+}
+
+#enter_details {
+    background-color: #d54e45;
+    border-radius: 5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

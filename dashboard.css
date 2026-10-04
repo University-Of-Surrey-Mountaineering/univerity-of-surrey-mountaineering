@@ -1,0 +1,109 @@
+
+
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-image: url("Photos/IMG_0935.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-attachment: fixed;
+    
+}
+
+
+.Banner {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #d54e45;
+}
+
+.Banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.Banner img {
+    max-height: 10vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#container {
+    background-color: #3c3c3c;
+    border-radius: 10%;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.next_trip {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    height: 30vh;
+    width: 100%;
+    background-color: #d54e45;
+}
+
+.user_section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 30vh;
+    width: 100%;
+}
+
+.container div {
+    padding: 10px;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.member_details{
+    text-decoration: none;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: #d54e45;
+    border-radius: 5%;
+    
+}
+
+.pfp_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user_details {
+    text-align: left;
+}

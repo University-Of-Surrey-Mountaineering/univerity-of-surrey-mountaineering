@@ -1,0 +1,131 @@
+
+body {
+    text-align: center;
+    background-color: #3c3c3c;
+    padding: 0;
+    margin: 0;
+}
+
+.Banner {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    text-align: left;
+    background-color: #d54e45;
+}
+
+.Banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Banner img {
+    max-height: 10vh;
+    padding: 0;
+    margin: 0;
+}
+
+.pfp_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: fit-content;
+    width: 100%;
+    padding: 1%;
+}
+
+
+.member_details{
+    padding: 5%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: #d54e45;
+    border-radius: 20%
+}
+
+.details {
+    text-align: left;
+}
+
+.whoami {
+    padding: 1%;
+    background-color: #d54e45;
+    border-radius: 5%;
+    font-size: 150%;
+}
+
+.input {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: 150%;
+    border-radius: 5%;
+}
+
+.messageform {
+    display: none;
+    position: fixed;
+    grid-template-columns: 30% 40% 30%;
+    bottom: 25%;
+    width: 100vw;
+}
+
+
+.messagecontainer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #e17d76;
+    border-radius: 10%;
+    margin: 10px;
+    height: 40vh;
+}
+
+
+.changedetailscontainer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.changedetails {
+    background-color: #d54e45;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.changedetails div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+
+.profilepicuploadcontainer {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    bottom: 25%;
+    background-color: white;
+}
